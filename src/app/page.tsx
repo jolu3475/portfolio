@@ -11,7 +11,7 @@ const fadeInUp = {
 export default function Home() {
   return (
     <div className="App">
-      <section className="py-5 bg-gray-50">
+      <section className="py-5">
         <motion.div
           variants={fadeInUp}
           initial="hidden"
