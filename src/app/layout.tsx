@@ -29,7 +29,9 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${playSans.variable} ${playMono.variable} antialiased`}>
         <AntdRegistry>
-          <div className="max-w-300 overflow-hidden">{children}</div>
+          <div className="max-w-300 overflow-hidden mx-auto bg-amber-900">
+            {children}
+          </div>
         </AntdRegistry>
       </body>
     </html>
